@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/121_html-css_Serhii-Panov/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga Bloom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wdth@0,75..100;1,75..100&family=Roboto:ital,wdth@0,75..100;1,75..100&family=Sarabun:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/121_html-css_Serhii-Panov/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/121_html-css_Serhii-Panov/assets/index-nFONa7CM.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="header-container">
+      <button type="button" class="header-button-menu">
+        <svg class="header-menu-icon" width="24" height="24">
+          <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li>
+            <a href="#yoga-classes" class="nav-link-header current"
+              >Yoga Classes</a
+            >
+          </li>
+          <li><a href="#team" class="nav-link-header">Team</a></li>
+          <li>
+            <a href="#testimonials" class="nav-link-header">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="nav-link-header">Pricing</a></li>
+          <li><a href="#contacts" class="nav-link-header">Contacts</a></li>
+        </ul>
+      </nav>
+      <a href="/Project-team-12/index.html" class="header-logo-link">
+        <svg class="header-logo" width="84" height="36">
+          <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <div class="header-btm-nav">
+        <a href="#pricing" class="my-button"
+          >Join <span class="my-button-span">Now</span></a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile -->
+
+  <div class="modal-backdrop">
+    <div class="modal-div">
+      <div class="header-modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="24" height="24">
+            <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <a href="/index.html" class="header-logo-link">
+          <svg class="header-logo" width="84" height="36">
+            <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <div>
+          <a href="#pricing" class="my-button"
+            >Join<span class="my-button-span">Now</span>
+          </a>
+        </div>
+      </div>
+      <nav class="header-nav-modal">
+        <ul>
+          <li>
+            <a href="#yoga-classes" class="nav-link-modal current"
+              >Yoga Classes</a
+            >
+          </li>
+          <li><a href="#team" class="nav-link-modal">Team</a></li>
+          <li>
+            <a href="#testimonials" class="nav-link-modal">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="nav-link-modal">Pricing</a></li>
+          <li><a href="#contacts" class="nav-link-modal">Contacts</a></li>
+        </ul>
+        <div class="header-button-pricing">
+          <a href="#pricing" class="my-button-modal">Join Now</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <div class="modal-overlay" data-modal="1">
+  <div class="modal">
+    <button data-menu-close class="close-btn">×</button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-text">One Session</p>
+    <div class="price">$10</div>
+    <form>
+      <div class="form-row">
+        <label class="form-label" for="modal-1session-name">Your Name</label>
+        <input
+          class="form-input"
+          type="text"
+          id="modal-1session-name"
+          placeholder="Placeholder"
+        />
+      </div>
+      <div class="form-grid">
+        <div class="form-row">
+          <label class="form-label" for="modal-1session-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="modal-1session-email"
+            placeholder="Placeholder"
+          />
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="modal-1session-phone"
+            >Phone number</label
+          >
+          <input
+            class="form-input"
+            type="tel"
+            id="modal-1session-phone"
+            placeholder="Placeholder"
+            required
+          />
+        </div>
+      </div>
+      <button type="button" class="btn">Go to checkout</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" data-modal="8">
+  <div class="modal">
+    <button data-menu-close class="close-btn">×</button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-text">8 Sessions Package</p>
+    <div class="price">$65</div>
+    <form>
+      <div class="form-row">
+        <label class="form-label" for="modal-8sessions-name">Your Name</label>
+        <input
+          class="form-input"
+          type="text"
+          id="modal-8sessions-name"
+          placeholder="Placeholder"
+        />
+      </div>
+      <div class="form-grid">
+        <div class="form-row">
+          <label class="form-label" for="modal-8sessions-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="modal-8sessions-email"
+            placeholder="Placeholder"
+          />
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="modal-8sessions-phone"
+            >Phone number</label
+          >
+          <input
+            class="form-input"
+            type="tel"
+            id="modal-8sessions-phone"
+            placeholder="Placeholder"
+            required
+          />
+        </div>
+      </div>
+      <button type="button" class="btn">Go to checkout</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" data-modal="12">
+  <div class="modal">
+    <button data-menu-close class="close-btn">×</button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-text">12 Sessions Package</p>
+    <div class="price">$80</div>
+    <form>
+      <div class="form-row">
+        <label class="form-label" for="modal-12sessions-name">Your Name</label>
+        <input
+          class="form-input"
+          type="text"
+          id="modal-12sessions-name"
+          placeholder="Placeholder"
+        />
+      </div>
+      <div class="form-grid">
+        <div class="form-row">
+          <label class="form-label" for="modal-12sessions-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="modal-12sessions-email"
+            placeholder="Placeholder"
+          />
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="modal-12sessions-phone"
+            >Phone number</label
+          >
+          <input
+            class="form-input"
+            type="tel"
+            id="modal-12sessions-phone"
+            placeholder="Placeholder"
+            required
+          />
+        </div>
+      </div>
+      <button type="button" class="btn">Go to checkout</button>
+    </form>
+  </div>
+</div>
+
+      <section class="hero" id="hero">
+  <picture>
+    <source
+      media="(min-width:1336px)"
+      srcset="/121_html-css_Serhii-Panov/assets/hero-img-desk-min-C-Jes-OH.jpg 1x, /121_html-css_Serhii-Panov/assets/hero-img-desk@2x-min-9BCI08lF.jpg 2x"
+    />
+
+    <source
+      media="(min-width:768px)"
+      srcset="/121_html-css_Serhii-Panov/assets/hero-img-tab-min-BcUmoB-g.jpg 1x, /121_html-css_Serhii-Panov/assets/hero-img-tab@2x-min-DwiSDLYz.jpg 2x"
+    />
+
+    <source
+      media="(max-width:767px)"
+      srcset="/121_html-css_Serhii-Panov/assets/hero-img-mob-min-BMrXj20K.jpg 1x, /121_html-css_Serhii-Panov/assets/hero-img-mob@2x-min-BHAYfKkf.jpg 2x"
+    />
+
+    <img src="/121_html-css_Serhii-Panov/assets/hero-img-desk-min-C-Jes-OH.jpg" class="hero-img" alt="hero-banner" />
+  </picture>
+
+  <div class="hero-container container">
+    <h1 class="hero-title">Transform Your Life with Our Yoga Clases</h1>
+    <div class="hero-content">
+      <p class="hero-paragraph">
+        Discover the harmony of mind and body through our expertly designed yoga
+        programs. Join a community dedicated to wellness and personal growth.
+      </p>
+      <ul class="hero-list">
+        <li><a href="#pricing" class="anchor anchor-link">Join Now</a></li>
+        <li>
+          <a
+            href="#mainpage-section-gallery"
+            class="anchor anchor-link-secondary"
+            >Learn More</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="yoga-classes" id="yoga-classes">
+  <div class="container yoga-container">
+    <div class="yoga-section">
+      <p class="yoga-txt">Explore</p>
+      <div class="yoga-content">
+        <h2 class="yoga-title-mob">Discover Our Most Popular Yoga Programs</h2>
+        <h2 class="yoga-title-tab">Transform Your Life with Our Yoga Clases</h2>
+        <p class="yoga-text">
+          Join our community and elevate your practice with our expertly
+          designed yoga programs. Each course is tailored to meet various skill
+          levels and personal goals.
+        </p>
+      </div>
+    </div>
+    <ul class="yoga-list">
+      <li class="yoga-list-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-desc1-min-EFIvBca4.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-desc1@2x-min-DJsi-e57.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-tab1-min-Dsmoqc6L.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-tab1@2x-min-B_5GU287.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-mob1-min-xp4vymbF.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-mob1@2x-min-C6q0uiHZ.jpg 2x"
+          />
+          <img
+            class="yoga-foto"
+            src="/121_html-css_Serhii-Panov/assets/Yogaclas-desc1-min-EFIvBca4.jpg"
+            alt="Beginner Yoga"
+          />
+        </picture>
+        <div class="yoga-div">
+          <h3 class="yoga-div-title-mob">
+            Beginner Yoga: Foundations for New Practitioners
+          </h3>
+          <h3 class="yoga-div-title">Beginner Yoga: Foundations</h3>
+          <p class="yoga-list-text">
+            Learn the basics of yoga in a supportive environment.
+          </p>
+        </div>
+      </li>
+      <li class="yoga-list-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-desc1-min-EFIvBca4.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-desc2@2x-min-3EafIvaK.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-tab2-min-An-jh5__.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-tab2@2x-min-CXsFlxnN.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-mob2-min-cqKBj8Ut.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-mob2@2x-min-B2scoHd4.jpg 2x"
+          />
+          <img
+            class="yoga-foto"
+            src="/121_html-css_Serhii-Panov/assets/Yogaclas-desc2-min-C-s5S6_e.jpg"
+            alt="Vinyasa Flow"
+          />
+        </picture>
+        <div class="yoga-div">
+          <h3 class="yoga-div-title-mob">
+            Vinyasa Flow: Energize Your Body and Mind
+          </h3>
+          <h3 class="yoga-div-title">
+            Vinyasa Flow: Energize Your Body and Mind
+          </h3>
+          <p class="yoga-list-text">
+            Experience a dynamic sequence that connects breath and movement.
+          </p>
+        </div>
+      </li>
+      <li class="yoga-list-tab yoga-list-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-desc3-min-BHQcSUDe.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-desc3@2x-min-DAJmpmrZ.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-tab3-min-CdJO2z3x.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-tab3@2x-min-CdLjEW0g.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/121_html-css_Serhii-Panov/assets/Yogaclas-mob3-min-5raSzbqG.jpg 1x, /121_html-css_Serhii-Panov/assets/Yogaclas-mob3@2x-min-B-eLG_TN.jpg 2x"
+          />
+          <img
+            class="yoga-foto"
+            src="/121_html-css_Serhii-Panov/assets/Yogaclas-desc3-min-BHQcSUDe.jpg"
+            alt="Restorative"
+          />
+        </picture>
+        <div class="yoga-div-tab yoga-div">
+          <h3 class="yoga-div-title-mob">
+            Restorative Yoga: Deep Relaxation and Healing
+          </h3>
+          <h3 class="yoga-div-title">
+            Restorative Yoga: Deep Relaxation and Healing
+          </h3>
+          <p class="yoga-list-text">
+            Unwind and rejuvenate with gentle poses and mindfulness.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <a class="yoga-batton-mob" href="#pricing">Join</a>
+    <a class="yoga-batton" href="#pricing">Join now</a>
+  </div>
+</section>
+
+      <section class="team" id="team">
+  <div class="container">
+    <h3 class="team-text-top">Meet</h3>
+    <h2 class="team-title">Our Team</h2>
+    <h4 class="team-text">
+      Dedicated professionals passionate about yoga and wellness.
+    </h4>
+    <ul class="team-list">
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/liamjohnson-desk1x-0fWXDA3m.jpg 1x, /121_html-css_Serhii-Panov/assets/liamjohnson-desk2x-4CHkJrXO.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/liamjohnson-tab1x-CXWpyuPa.jpg 1x, /121_html-css_Serhii-Panov/assets/liamjohnson-tab2x-DxpZ4xly.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/liamjohnson1x-DBAY7zxT.jpg 1x, /121_html-css_Serhii-Panov/assets/liamjohnson2x-9Jz5F9mk.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/liamjohnson-desk1x-0fWXDA3m.jpg"
+            alt="Liam Johnson"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Liam Johnson</h3>
+
+          <h4 class="team-text-name">Yoga Instructor</h4>
+
+          <p class="team-text-p">
+            Emma has over 10 years of experience in Hatha and Vinyasa yoga.
+          </p>
+
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-linkedIn"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/emmastone-desk1x-BQom3FPo.jpg 1x, /121_html-css_Serhii-Panov/assets/emmastone-desk2x-DbzeSwNx.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/emmastone-tab1x-Bc2AeBmL.jpg 1x, /121_html-css_Serhii-Panov/assets/emmastone-tab2x-183ief11.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/emmastone1x-n7q8ubXJ.jpg 1x, /121_html-css_Serhii-Panov/assets/emmastone2x-CfFkCCyC.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/emmastone-desk1x-BQom3FPo.jpg"
+            alt="Emma Stone"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Emma Stone</h3>
+
+          <h4 class="team-text-name">Meditation Coach</h4>
+
+          <p class="team-text-p">
+            Liam specializes in mindfulness and stress reduction techniques
+            through guided meditation.
+          </p>
+
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-linkedIn"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/sophialee-desk1x-f8j1YTDS.jpg 1x, /121_html-css_Serhii-Panov/assets/sophialee-desk2x-CD8cXOns.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/sophialee-tab1x-JqapNVNH.jpg 1x, /121_html-css_Serhii-Panov/assets/sophialee-tab2x-EhyidqoX.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/sophialee1x-d0HLIr3R.jpg 1x, /121_html-css_Serhii-Panov/assets/sophialee2x-DLiWrzKK.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/sophialee-desk1x-f8j1YTDS.jpg"
+            alt="Sophia Lee"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Sophia Lee</h3>
+
+          <h4 class="team-text-name">Pilates Trainer</h4>
+
+          <p class="team-text-p">
+            Sophia combines Pilates with yoga for a holistic fitness approach.
+          </p>
+
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/noahbrown-desk1x-CBBxWUXM.jpg 1x, /121_html-css_Serhii-Panov/assets/noahbrown-desk2x-5BRI1Br2.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/noahbrown-tab1x-DMl9Yvu3.jpg 1x, /121_html-css_Serhii-Panov/assets/noahbrown-tab2x-Cl2kQCzg.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/noahbrown1x-Dl6oho-t.jpg 1x, /121_html-css_Serhii-Panov/assets/noahbrown2x-rbDatSoN.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/noahbrown-desk1x-CBBxWUXM.jpg"
+            alt="Noah Brown"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Noah Brown</h3>
+
+          <h4 class="team-text-name">Yoga Therapist</h4>
+
+          <p class="team-text-p">
+            Noah focuses on therapeutic yoga to aid recovery and enhance
+            well-being.
+          </p>
+
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-linkedIn"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/avagreen-desk1x-BS_OKd8C.jpg 1x, /121_html-css_Serhii-Panov/assets/avagreen-desk2x-COwCfWqb.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/avagreen-tab1x-BNCF2LQe.jpg 1x, /121_html-css_Serhii-Panov/assets/avagreen-tab2x-iqueTvaX.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/avagreen1x-CSRnEA8i.jpg 1x, /121_html-css_Serhii-Panov/assets/avagreen2x-DgoSPHgy.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/avagreen-desk1x-BS_OKd8C.jpg"
+            alt="Ava Green"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Ava Green</h3>
+
+          <h4 class="team-text-name">Fitness Trainer</h4>
+
+          <p class="team-text-p">
+            Ava integrates strength training with yoga to promote overall
+            fitness.
+          </p>
+
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-linkedIn"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-item">
+        <picture>
+          <source
+            media="(min-width: 1336px)"
+            srcset="/121_html-css_Serhii-Panov/assets/clarkthomas-desk1x-Cwcogc9b.jpg 1x, /121_html-css_Serhii-Panov/assets/clarkthomas-desk2x-DxbafJiM.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/121_html-css_Serhii-Panov/assets/clarkthomas-tab1x-nmXAA7KM.jpg 1x, /121_html-css_Serhii-Panov/assets/clarkthomas-tab2x-B2J36t6R.jpg 2x"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="/121_html-css_Serhii-Panov/assets/clarkthomas1x-BP9hVvyF.jpg 1x, /121_html-css_Serhii-Panov/assets/clarkthomas2x-CLkMnw6r.jpg 2x"
+          />
+          <img
+            src="/121_html-css_Serhii-Panov/assets/clarkthomas-desk1x-Cwcogc9b.jpg"
+            alt="Clark Thomas"
+            class="team-image"
+          />
+        </picture>
+        <div class="team-card-content">
+          <h3 class="team-subtitle">Clark Thomas</h3>
+
+          <h4 class="team-text-name">Fitness Trainer</h4>
+
+          <p class="team-text-p">
+            Clark specializes in mindfulness and stress reduction techniques
+            through guided meditation.
+          </p>
+          <ul class="team-list-icons">
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-item-icons">
+              <a
+                class="team-soc-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-soc" width="24" height="24">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="gallery container" id="mainpage-section-gallery">
+  <div class="gallery_wrap">
+    <h2 class="gallery_menu">Breathe in the Space</h2>
+    <p class="gallery_text">
+      Step inside YogaBloom and feel the calm. Explore our serene studio and the
+      peaceful moments our community shares during each session.
+    </p>
+  </div>
+  <ul class="gallery_list">
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage1-oB2FMYXR.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage7-qEZ5pOyi.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages1-CWUDfBWr.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages7-DB7_rgNv.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages1-OJ-ajM7Z.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages7-D0pST5dA.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages1-OJ-ajM7Z.jpg"
+          alt="Low Lunge Pose"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage2-BwElJHh4.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage8-B-0vCG5W.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages2-Vup_gRUf.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages8-DWqOtonQ.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages2-BcXQbl69.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages8-BqIR3WQX.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages2-BcXQbl69.jpg"
+          alt="Easy Pose"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage3-DUNs82bo.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage9-BmIgeWtV.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages3-Cmh1Y6uf.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages9-D_k28o9y.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages3-C1JnYG3H.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages9-BUeHL6VY.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages3-C1JnYG3H.jpg"
+          alt="Fitness center"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage4-B4-tcc07.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage10-Bc739SWy.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages4-BNd1Voai.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages10-BZ74DUur.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages4-Cj5F-7Wl.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages10-CsHAegVi.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages4-Cj5F-7Wl.jpg"
+          alt="Yoga studio"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage5-9ROCTLOT.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage11-BiA3jGrv.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages5-DQ0NoAHJ.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages11-k7iuXswV.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages5-sTX0Hfbt.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages11-CCAc3eiF.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages5-sTX0Hfbt.jpg"
+          alt="Reflection"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+    <li class="gallery_item">
+      <picture>
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/DesktopImage6-BswMvh65.jpg 1x, /121_html-css_Serhii-Panov/assets/DesktopImage12-CWvxEjXL.jpg 2x"
+          media="(min-width: 1336px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/TabletImages6-BCvqJA2l.jpg 1x, /121_html-css_Serhii-Panov/assets/TabletImages12-CKw7Q64B.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/121_html-css_Serhii-Panov/assets/PhoneImages6-DEKZ4H8a.jpg 1x, /121_html-css_Serhii-Panov/assets/PhoneImages12-C51nGLK3.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/121_html-css_Serhii-Panov/assets/PhoneImages6-DEKZ4H8a.jpg"
+          alt="Stillness"
+          class="gallery_image"
+          width="421"
+          height="448"
+        />
+      </picture>
+    </li>
+  </ul>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <div class="about-head">
+      <h2 class="about-title">Why Yoga Helps You</h2>
+      <p class="about-text">
+        Four science-backed reasons to start your journey today
+      </p>
+    </div>
+    <ul class="about-list">
+      <li class="about-item">
+        <h4 class="about-subtitle">1. Reduces Stress & Anxiety</h4>
+        <p class="about-text">
+          Regular yoga practice lowers cortisol levels and calms the nervous
+          system — helping you feel more grounded, focused, and emotionally
+          balanced.
+        </p>
+      </li>
+      <li class="about-item">
+        <h4 class="about-subtitle">2. Builds Strength & Flexibility</h4>
+        <p class="about-text">
+          Yoga gently tones your body while increasing mobility and posture
+          awareness — without strain or pressure. Great for beginners and
+          experienced movers alike.
+        </p>
+      </li>
+      <li class="about-item">
+        <h4 class="about-subtitle">3. Improves Sleep & Energy</h4>
+        <p class="about-text">
+          Mindful movement and breathing techniques improve sleep quality and
+          leave you feeling more refreshed, focused, and energized throughout
+          the day.
+        </p>
+      </li>
+      <li class="about-item">
+        <h4 class="about-subtitle">4. Boosts Mental Clarity & Focus</h4>
+        <p class="about-text">
+          Yoga encourages present-moment awareness. Through mindful movement and
+          breathwork, it sharpens concentration, improves memory, and clears
+          mental fog.
+        </p>
+      </li>
+    </ul>
+
+    <a href="#pricing" class="join-link join-mobile">Join</a>
+    <a href="#pricing" class="join-link join-desktop">Join Now</a>
+  </div>
+</section>
+
+      <section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="testimonials-title">Testimonials</h2>
+      <p class="testimonials-subtitle">What our happy clients say</p>
+    </div>
+    <ul class="testimonials-list">
+      <li class="testimonials-list-item">
+        <article class="testimonial-card">
+          <p class="testimonials-list-item-text">
+            YogaBloom is a true sanctuary for the mind and body. The classes are
+            thoughtfully guided, the atmosphere is calming, and every session
+            leaves me feeling more centered, flexible, and recharged. Highly
+            recommended for anyone seeking balance and inner peace.
+          </p>
+          <div class="testimonials-avatar">
+            <img
+              src="/121_html-css_Serhii-Panov/assets/testimonials-1-GQPVB_tA.jpg"
+              alt="Donna Norman"
+              class="testimonials-list-item-image"
+              width="56"
+              height="56"
+            />
+            <h3 class="testimonials-list-item-title">Donna Norman</h3>
+            <h4 class="testimonials-list-item-subtitle">Yoga Enthusiast</h4>
+          </div>
+        </article>
+      </li>
+      <li class="testimonials-list-item">
+        <article class="testimonial-card">
+          <p class="testimonials-list-item-text">
+            I’ve tried many yoga studios, but YogaBloom stands out with its
+            welcoming energy and inspiring instructors. Every class feels like a
+            journey inward. It’s now my favorite part of the week.
+          </p>
+          <div class="testimonials-avatar">
+            <img
+              src="/121_html-css_Serhii-Panov/assets/testimonials-2-DiYqDf2T.jpg"
+              alt="Sophie Delgado"
+              class="testimonials-list-item-image"
+              width="56"
+              height="56"
+            />
+            <h3 class="testimonials-list-item-title">Sophie Delgado</h3>
+            <h4 class="testimonials-list-item-subtitle">
+              Marketing Specialist
+            </h4>
+          </div>
+        </article>
+      </li>
+      <li class="testimonials-list-item">
+        <article class="testimonial-card">
+          <p class="testimonials-list-item-text">
+            YogaBloom helped me reconnect with myself. The sessions are
+            well-paced, the space is beautiful, and the community is truly
+            supportive. A perfect place to grow both physically and mentally.
+          </p>
+          <div class="testimonials-avatar">
+            <img
+              src="/121_html-css_Serhii-Panov/assets/testimonials-3-D6zbdE9o.jpg"
+              alt="Rachel Kimura"
+              class="testimonials-list-item-image"
+              width="56"
+              height="56"
+            />
+            <h3 class="testimonials-list-item-title">Rachel Kimura</h3>
+            <h4 class="testimonials-list-item-subtitle">
+              Freelance Illustrator
+            </h4>
+          </div>
+        </article>
+      </li>
+      <li class="testimonials-list-item">
+        <article class="testimonial-card">
+          <p class="testimonials-list-item-text">
+            Whether you're new to yoga or a long-time practitioner, YogaBloom
+            offers something special. The mindful approach and soothing guidance
+            make each class a peaceful escape from daily stress.
+          </p>
+          <div class="testimonials-avatar">
+            <img
+              src="/121_html-css_Serhii-Panov/assets/testimonials-4-DgEV0duW.jpg"
+              alt="Emma L. Hart"
+              class="testimonials-list-item-image"
+              width="56"
+              height="56"
+            />
+            <h3 class="testimonials-list-item-title">Emma L. Hart</h3>
+            <h4 class="testimonials-list-item-subtitle">
+              University Student & Part-time Barista
+            </h4>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="pricing-plan" id="pricing">
+  <div class="container">
+    <p class="pricing-plan-subtitle">Affordable</p>
+    <h2 class="pricing-plan-title">Pricing Plans</h2>
+    <p class="pricing-plan-description">
+      Choose the perfect plan for your yoga journey.
+    </p>
+    <ul class="pricing-tariff-plans">
+      <li class="pricing-card">
+        <h3 class="pricing-card-title">One Session</h3>
+        <p class="pricing-card-price">$10</p>
+
+        <ul class="pricing-card-list">
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">1 group session</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content"
+              >10% discount for next 2 Sessions</span
+            >
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">Community support group</span>
+          </li>
+        </ul>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="1"
+        >
+          Join
+        </button>
+      </li>
+
+      <li class="pricing-card">
+        <h3 class="pricing-card-title">8 Sessions Package</h3>
+        <p class="pricing-card-price">$65</p>
+
+        <ul class="pricing-card-list">
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">6 Group Sessions</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">2 Individual Sessions</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">Community support group</span>
+          </li>
+        </ul>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="8"
+        >
+          Join
+        </button>
+      </li>
+      <li class="pricing-card">
+        <h3 class="pricing-card-title">12 Sessions Package</h3>
+        <p class="pricing-card-price">$80</p>
+
+        <ul class="pricing-card-list">
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">8 Group Sessions</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">4 Individual Sessions</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">Monthly yoga challenges</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">Exclusive member discounts</span>
+          </li>
+          <li class="pricing-card-item">
+            <svg
+              class="pricing-card-icon"
+              width="24"
+              height="24"
+              fill="#0d0b0a"
+            >
+              <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-check"></use>
+            </svg>
+            <span class="pricing-card-content">Community support group</span>
+          </li>
+        </ul>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="12"
+        >
+          Join
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="first-block">
+        <a href="/Project-team-12/index.html" class="footer-logo">
+          <svg width="84px" height="36px" class="footer-logo-icon">
+            <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <p class="footer-subscribe-form-text">
+          Subscribe to our newsletter for the latest updates on our yoga courses
+          and events.
+        </p>
+        <form class="footer-subscribe-form" novalidate>
+          <input
+            class="footer-subscribe-form-input"
+            type="email"
+            name="footer-user-email"
+            id="footer-user-email"
+            placeholder="Placeholder"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <p class="text-valid">Success!</p>
+          <p class="text-invalid">Invalid email, try again</p>
+          <button type="submit" class="footer-subscribe-form-btn">Join</button>
+        </form>
+        <p class="footer-privacy">
+          By subscribing, you consent to our Privacy Policy and agree to receive
+          updates.
+        </p>
+      </div>
+      <div class="second-block">
+        <h3 class="footer-nav-header">Quick Links</h3>
+        <ul class="footer-nav">
+          <li class="footer-nav-item">
+            <a href="#yoga-classes">Yoga Classes</a>
+          </li>
+          <li class="footer-nav-item"><a href="#team">Team</a></li>
+          <li class="footer-nav-item"><a href="#pricing">Pricing</a></li>
+          <li class="footer-nav-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="third-block" id="contacts">
+        <h3 class="footer-socials-header">Connect With Us</h3>
+        <ul class="footer-socials">
+          <li class="footer-socials-item">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/"
+              class="footer-socials-item-link"
+            >
+              <div class="footer-socials-icon-with-text">
+                <svg width="24" height="24" class="footer-socials-item-icon">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-facebook"></use>
+                </svg>
+                <p class="footer-socials-item-text">Facebook</p>
+              </div>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/"
+              class="footer-socials-item-link"
+            >
+              <div class="footer-socials-icon-with-text">
+                <svg width="24" height="24" class="footer-socials-item-icon">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-instagram"></use>
+                </svg>
+                <p class="footer-socials-item-text">Instagram</p>
+              </div>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/"
+              class="footer-socials-item-link"
+            >
+              <div class="footer-socials-icon-with-text">
+                <svg width="24" height="24" class="footer-socials-item-icon">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-linkedIn"></use>
+                </svg>
+                <p class="footer-socials-item-text">LinkedIn</p>
+              </div>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/"
+              class="footer-socials-item-link"
+            >
+              <div class="footer-socials-icon-with-text">
+                <svg width="24" height="24" class="footer-socials-item-icon">
+                  <use href="/121_html-css_Serhii-Panov/assets/icons-DqnOo8G0.svg#icon-youtube"></use>
+                </svg>
+                <p class="footer-socials-item-text">YouTube</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">© 2025 Yoga Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
